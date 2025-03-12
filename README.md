@@ -19,7 +19,7 @@ Clone the repository and install dependencies:
 
 ```sh
 # Clone the repository
-git clone https://github.com/your-repo/devotel.git
+git clone https://github.com/dadfarjs/devotel.git
 cd devotel
 
 # Install dependencies
@@ -102,3 +102,7 @@ Key dependencies used in this project include:
 - **Redux Toolkit**: State management
 - **React Query**: API data fetching and caching
 - **React Router**: Routing
+
+## License
+
+This project is licensed under the MIT License.

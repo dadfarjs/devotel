@@ -146,7 +146,7 @@ const InputField = ({ field }: { field: FormInputField }) => {
           />
         );
 
-      case "select":
+      case "select": {
         const options = field.dynamicOptions ? dynamicOptions : field.options;
         return (
           <Controller
@@ -172,6 +172,7 @@ const InputField = ({ field }: { field: FormInputField }) => {
             )}
           />
         );
+      }
 
       case "radio":
         return (
